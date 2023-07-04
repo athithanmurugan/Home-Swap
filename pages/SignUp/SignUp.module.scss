@@ -1,0 +1,68 @@
+.body {
+    font-family: 'Montserrat';
+}
+
+.container {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.signupForm {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    height: max-content;
+}
+
+  .container h1, .container h3 {
+    text-align: center;
+  }
+  
+  .signupForm h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .signupForm .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  .signupForm label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+  .signupForm input[type="text"],
+  .signupForm input[type="email"],
+  .signupForm input[type="password"] {
+    width: 100%;
+    padding: 7px 10px;
+    border: 1px solid #D6D6D6;
+    border-radius: 4px;
+    background-color: #eae9e9;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  .signupForm button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #EE685F;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .signupForm button[type="submit"]:hover {
+    background-color:#ca483f;
+  }
+  
